@@ -4,7 +4,7 @@ const params = new URLSearchParams(window.location.search);
 const title = params.get("title");
 
 btnReturn.addEventListener("click", () => {
-  window.location.href = "/index.html";
+  window.location.href = "index.html";
 });
 async function searchInfo() {
 try {
