@@ -17,7 +17,7 @@ export function showTheMovie(movies) {
     const btn = div.querySelector(".btn");
     
     btn.addEventListener('click', (infos)=>{
-     window.location.href = `/infoPage.html?title=${encodeURIComponent(data.Title)}`
+     window.location.href = `infoPage.html?title=${encodeURIComponent(data.Title)}`
 
     })
 
