@@ -124,7 +124,7 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 200px;
+  width: 180px;
   height: 300px;
   gap: 10px;
   margin: 0.5rem;
